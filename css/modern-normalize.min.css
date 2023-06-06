@@ -114,3 +114,27 @@ img {
 .works-item {
     flex-basis: calc((100%-2*24px)/3);
 }
+
+/**
+  |============================
+  | Our Team
+  |============================
+*/
+
+.our-team {
+    padding: 120px;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.our-team .list {
+    display: flex;
+    gap: 24px;
+}
+
+.our-team .bgc {
+    flex-basis: calc((100%-3*24px)/4);
+    max-width: 264px;
+}
