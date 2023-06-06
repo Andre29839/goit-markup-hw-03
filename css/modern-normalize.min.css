@@ -72,3 +72,23 @@ img {
     max-width: 496px;
 }
 
+/**
+  |============================
+  | Advantages
+  |============================
+*/
+
+.advantages {
+    padding: 120px;
+}
+
+.advantages .list {
+    display: flex;
+    gap: 24px;
+    width: calc((100%-3*24px)/4);
+}
+
+.advantages-h {
+    margin-bottom: 8px;
+}
+
