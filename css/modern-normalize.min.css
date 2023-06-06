@@ -85,10 +85,28 @@ img {
 .advantages .list {
     display: flex;
     gap: 24px;
-    width: calc((100%-3*24px)/4);
+    flex-basis: calc((100%-3*24px)/4);
 }
 
 .advantages-h {
     margin-bottom: 8px;
 }
 
+/**
+  |============================
+  | Our work
+  |============================
+*/
+
+.works {
+    padding: 120px;
+}
+.example {
+    margin-bottom: 72px;
+}
+
+.works .list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-2*24px)/3);
+}
