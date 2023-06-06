@@ -1,3 +1,44 @@
+:root {
+    --main-color-text: #434455;
+    --secondary-color-text: #2E2F42;
+    --white-color: #FFFFFF;
+    --logo-color: #4D5AE5;
+    --border-color: #E7E9FC;
+    --background-color: #E5E5E5;
+    --secondary-background-color: #F4F4FD;
+    --button: #404BBF;
+}
 img {
     display: block;
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+
+.header {
+    border-bottom: 1px solid var(--border-color)
+}
+
+.header .container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+
+.nav.container {
+    gap: 40px;
+}
+
+.header-item {
+    padding: 24px 0;
+}
+
+.header .list {
+    display: flex;
+    gap: 40px;
 }
