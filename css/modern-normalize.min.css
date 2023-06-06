@@ -22,6 +22,10 @@ img {
     border-bottom: 1px solid var(--border-color)
 }
 
+.logo {
+    margin-right: 76px;
+}
+
 .header .container {
     display: flex;
     width: 1158px;
@@ -42,3 +46,4 @@ img {
     display: flex;
     gap: 40px;
 }
+

@@ -95,7 +95,6 @@ header ul.list:hover, header ul.list:focus {
 
 .logo {
     color: var(--secondary-color-text);
-    margin-right: 76px;
 }
 header .link, footer .link {
     
