@@ -39,11 +39,12 @@ img {
 }
 
 .header-item {
-    padding: 24px 0 24px;
+    
 }
 
 .header .list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
