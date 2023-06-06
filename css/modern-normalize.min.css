@@ -12,6 +12,16 @@ img {
     display: block;
 }
 
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--logo-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 /**
   |============================
   | Header
@@ -39,13 +49,26 @@ img {
 }
 
 .header-item {
-    
+    padding: 24px 0;
 }
 
 .header .list {
     display: flex;
     gap: 40px;
-    padding: 24px 0 24px;
     align-items: center;
+}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+
+.hero {
+    padding: 188px 0;
+}
+
+.hero-title {
+    max-width: 496px;
 }
 
