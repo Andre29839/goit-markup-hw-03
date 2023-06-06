@@ -1,0 +1,251 @@
+:root {
+--main-color-text: #434455;
+--secondary-color-text: #2E2F42;
+--white-color: #FFFFFF;
+--logo-color: #4D5AE5;
+--border-color: #E7E9FC;
+--background-color: #E5E5E5;
+--secondary-background-color: #F4F4FD;
+--button: #404BBF;
+}
+
+body {
+    color: var(--main-color-text);
+    background-color: var(--white-color);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header */
+
+header {
+    
+    font-weight: 500;
+}
+
+nav.link {
+    list-style: none;
+}
+
+.link.website{
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.link.website:hover, .link.website:focus, .address:hover, .address:focus, .logo:focus {
+    color: var(--button);
+}
+
+header a {
+    color: var(--main-color-text);
+    text-decoration: none;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address.list {
+    font-style: normal;
+    letter-spacing: 0.02em;
+    list-style: none;
+    color: var(--secondary-color-text);
+    text-decoration: none;
+}
+
+.link.address {
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    list-style: none;
+    color: var(--main-color-text);
+    text-decoration: none;
+}
+
+.link.address:hover, .link.address:focus {
+    color: var(--button)
+}
+
+header ul.list {
+    
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+header ul.list:hover, header ul.list:focus {
+    color: var(--button);
+}
+
+.list {
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+/* Logo */
+
+.logo {
+    color: var(--secondary-color-text);
+}
+header .link, footer .link {
+    
+    letter-spacing: 0.03em;
+        color: var(--logo-color);
+        font-family: Raleway, sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        text-decoration: none;
+        text-transform: uppercase;
+}
+
+.logo:hover, .logo:focus{
+    color: var(--button);
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--secondary-color-text);
+   
+}
+
+.hero-title {
+    color: var(--white-color);
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+
+.hero > .button {
+    color: var(--white-color);
+    background-color: var(--logo-color);
+    font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+}
+
+.hero>.button:focus, .hero>.button:hover {
+    background-color: var(--button);
+}
+
+/* Advantages */
+
+.avantages-title, .advantages-list {
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+}
+
+.advantages-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.advantages-p {
+        color: var(--main-color-text);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+/* What are we doing*/
+
+.example, .team-title {
+    color: var(--secondary-color-text);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+/* Our Team */
+
+.our-team {
+    background-color: var(--secondary-background-color);
+}
+
+.our-team .bgc {
+    background-color: var(--white-color);
+}
+
+.team {
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.team-title {
+    letter-spacing: 0.02em;
+}
+
+.position {
+    text-align: center;
+}
+
+/* footer */
+
+.footer, footer .logo {
+    color: var(--secondary-background-color);
+    background-color: var(--secondary-color-text);
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+
+.list .button {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--logo-color);
+    background-color: var(--secondary-background-color);
+    cursor: pointer;
+}
+
+.list .link {
+    text-decoration: none;
+
+}
+
+.list .button:hover, .list .button:focus {
+    color: var(--white-color);
+    background-color: var(--button);
+    cursor: pointer;
+}
+
+.example-list {
+    color: var(--secondary-color-text);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.production-p {
+    color: var(--main-color-text);
+    text-decoration: none;
+}
