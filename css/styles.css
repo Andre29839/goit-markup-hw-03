@@ -111,7 +111,7 @@ img {
 }
 
 .header-item {
-    padding: 24px 0;
+    
 }
 
 .header-container {
@@ -179,6 +179,7 @@ header ul.list:hover, header ul.list:focus {
 .nav-list, .address-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .nav {
