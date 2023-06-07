@@ -236,20 +236,14 @@ header ul.list:hover, header ul.list:focus {
 
 /* Advantages */
 
-.avantages-title, .advantages-list {
+.advantages-list {
     color: var(--secondary-color-text);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.04em;
-
+    max-width: 264px;
 }
 
 .advantages .list {
     display: flex;
-    flex-wrap: wrap;
-    flex-basis: calc((100%-3*24px)/4);
-    max-width: 264px;
+    gap: 24px;
 }
 
 .advantages-h {
@@ -269,12 +263,6 @@ header ul.list:hover, header ul.list:focus {
 
 .advantages {
     padding: 120px 0;
-}
-
-.advantages .list {
-    display: flex;
-    gap: 24px;
-    flex-basis: calc((100%-3*24px)/4);
 }
 
 /* What are we doing*/
@@ -316,7 +304,6 @@ header ul.list:hover, header ul.list:focus {
 
 .our-team .bgc {
     background-color: var(--white-color);
-    display: flex;
     gap: 24px;
 }
 
@@ -340,11 +327,12 @@ header ul.list:hover, header ul.list:focus {
 }
 
 .our-team .bgc {
-    flex-basis: calc((100%-3*24px)/4);
     max-width: 264px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+
+
 
 .team-container {
     padding: 32px 16px;
@@ -353,10 +341,6 @@ header ul.list:hover, header ul.list:focus {
 .our-team .list {
     display: flex;
     gap: 24px;
-}
-
-.bgc {
-    width: calc((100%-3*24px)/4);
 }
 
 /* footer */
@@ -368,12 +352,17 @@ header ul.list:hover, header ul.list:focus {
     padding: 100px 0;
 }
 
+.footer.container {
+    display: flex;
+    max-width: 264px;
+}
+
 .footer .link {
     display: inline-block;
     margin-bottom: 16px;
 }
 
-.footer.footer-p {
+.footer .footer-p {
     max-width: 264px;
 }
 
