@@ -385,6 +385,11 @@ header .link, footer .link {
 
 /* Portfolio */
 
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .list .button {
     font-family: Roboto, sans-serif;
     font-weight: 500;
