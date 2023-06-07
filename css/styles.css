@@ -111,7 +111,7 @@ img {
 }
 
 .header-item {
-    
+    padding: 24px 0;
 }
 
 .header-container {
@@ -179,7 +179,6 @@ header ul.list:hover, header ul.list:focus {
 .nav-list, .address-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .nav {
@@ -399,8 +398,18 @@ header ul.list:hover, header ul.list:focus {
     border: 1px solid var(--border-color);
 }
 
-.list-btn.button:hover, .list-btn.button:focus {
+.list-btn .button:hover, .list-btn .button:focus {
     border: 1px solid transparent;
+    color: var(--white-color);
+    background-color: var(--button);
+    cursor: pointer;
+}
+
+.portfolio .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    row-gap: 48px;
 }
 
 .list .link {
@@ -408,10 +417,8 @@ header ul.list:hover, header ul.list:focus {
 
 }
 
-.list .button:hover, .list .button:focus {
-    color: var(--white-color);
-    background-color: var(--button);
-    cursor: pointer;
+.portfolio-links {
+    width: calc((100%-48px)3);
 }
 
 .example-list {
@@ -426,3 +433,4 @@ header ul.list:hover, header ul.list:focus {
     color: var(--main-color-text);
     text-decoration: none;
 }
+
