@@ -18,10 +18,83 @@ body {
     line-height: 1.5;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+  |============================
+  | Basic Styles
+  |============================
+*/
+
+img {
+    display: block;
+}
+
+.button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: var(--logo-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    word-spacing: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 /* Header */
 
 header {
-    
+    border-bottom: 1px solid var(--border-color)
     font-weight: 500;
 }
 
@@ -48,6 +121,7 @@ header a {
 
 .address {
     font-style: normal;
+    min-width: 153;
 }
 
 .address.list {
@@ -80,6 +154,9 @@ header ul.list {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
 header ul.list:hover, header ul.list:focus {
@@ -91,11 +168,31 @@ header ul.list:hover, header ul.list:focus {
     list-style-type: none;
 }
 
+
+.header .link {
+    margin-right: 76px;
+}
+
+.header .container {
+
+    align-items: center;
+}
+
+.nav.container {
+    gap: 40px;
+}
+
+.header-item {
+    padding: 24px 0;
+}
+
+
 /* Logo */
 
 .logo {
     color: var(--secondary-color-text);
 }
+
 header .link, footer .link {
     
     letter-spacing: 0.03em;
@@ -116,6 +213,7 @@ header .link, footer .link {
 
 .hero {
     background-color: var(--secondary-color-text);
+    padding: 188px 0;
    
 }
 
@@ -126,6 +224,7 @@ header .link, footer .link {
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
+        max-width: 496px;
 }
 
 .hero > .button {
@@ -143,6 +242,7 @@ header .link, footer .link {
     background-color: var(--button);
 }
 
+
 /* Advantages */
 
 .avantages-title, .advantages-list {
@@ -158,6 +258,7 @@ header .link, footer .link {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-p {
@@ -166,6 +267,17 @@ header .link, footer .link {
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+.advantages {
+    padding: 120px 0;
+}
+
+.advantages .list {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100%-3*24px)/4);
+}
+
 /* What are we doing*/
 
 .example, .team-title {
@@ -178,14 +290,35 @@ header .link, footer .link {
     text-transform: capitalize;
 }
 
+.works {
+    padding: 120px 0;
+}
+
+.example {
+    margin-bottom: 72px;
+}
+
+.works .list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.works-item {
+    flex-basis: calc((100%-2*24px)/3);
+}
+
 /* Our Team */
 
 .our-team {
     background-color: var(--secondary-background-color);
+    padding: 120px 0;
 }
 
 .our-team .bgc {
     background-color: var(--white-color);
+    display: flex;
+    gap: 24px;
 }
 
 .team {
@@ -195,14 +328,27 @@ header .link, footer .link {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team-title {
     letter-spacing: 0.02em;
+    margin-bottom: 72px;
 }
 
 .position {
     text-align: center;
+}
+
+.our-team .bgc {
+    flex-basis: calc((100%-3*24px)/4);
+    max-width: 264px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-container {
+    padding: 32px 16px;
 }
 
 /* footer */
