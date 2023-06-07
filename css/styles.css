@@ -107,6 +107,11 @@ img {
     align-items: center;
     letter-spacing: 0.03em;
     color: var(--logo-color);
+    margin-right: 76px;
+}
+
+.header-item {
+    padding: 24px 0;
 }
 
 .header-container {
