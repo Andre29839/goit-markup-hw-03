@@ -106,6 +106,7 @@ img {
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
+    color: var(--logo-color);
 }
 
 .header-container {
@@ -157,28 +158,21 @@ nav.link {
     color: var(--button)
 }
 
-header ul.list {
-    
-    color: var(--secondary-color-text);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    display: flex;
-    gap: 40px;
-    align-items: center;
-}
-
 header ul.list:hover, header ul.list:focus {
     color: var(--button);
 }
 
 .list {
     list-style-type: none;
+    display: flex;
 }
 
 .nav.container {
+    gap: 40px;
+}
+
+.nav-list, .address-list {
+    display: flex;
     gap: 40px;
 }
 
@@ -198,8 +192,8 @@ header ul.list:hover, header ul.list:focus {
         text-decoration: none;
 }
 
-.logo:hover, .logo:focus{
-    color: var(--button);
+.link-logo:hover, .link-logo:focus{
+    color: var(--logo-color);
 }
 
 /* Hero */
@@ -218,17 +212,21 @@ header ul.list:hover, header ul.list:focus {
         text-align: center;
         letter-spacing: 0.02em;
         max-width: 496px;
+        margin: 0 auto 48px;
+
 }
 
-.hero > .button {
+.hero .button {
     color: var(--white-color);
     background-color: var(--logo-color);
     font-family: Roboto, sans-serif;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    margin: 0 auto;
+    
 }
 
 .hero>.button:focus, .hero>.button:hover {
@@ -248,6 +246,8 @@ header ul.list:hover, header ul.list:focus {
 }
 
 .advantages .list {
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: calc((100%-3*24px)/4);
     max-width: 264px;
 }
