@@ -390,7 +390,14 @@ header .link, footer .link {
     padding-bottom: 120px;
 }
 
-.list .button {
+.portfolio .list-btn {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.list-btn .button {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -399,6 +406,12 @@ header .link, footer .link {
     color: var(--logo-color);
     background-color: var(--secondary-background-color);
     cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid var(--border-color);
+}
+
+.list-btn.button:hover, .list-btn.button:focus {
+    border: 1px solid transparent;
 }
 
 .list .link {
