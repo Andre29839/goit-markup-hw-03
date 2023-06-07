@@ -94,7 +94,7 @@ img {
 /* Header */
 
 header {
-    border-bottom: 1px solid var(--border-color)
+    border-bottom: 1px solid var(--border-color);
     font-weight: 500;
 }
 
@@ -121,7 +121,6 @@ header a {
 
 .address {
     font-style: normal;
-    min-width: 153;
 }
 
 .address.list {
@@ -185,7 +184,6 @@ header ul.list:hover, header ul.list:focus {
 .header-item {
     padding: 24px 0;
 }
-
 
 /* Logo */
 
