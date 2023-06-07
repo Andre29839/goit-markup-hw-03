@@ -428,7 +428,7 @@ header ul.list:hover, header ul.list:focus {
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-    margin-top: 32px;
+   
 }
 
 .production-p {
@@ -436,8 +436,3 @@ header ul.list:hover, header ul.list:focus {
     text-decoration: none;
 }
 
-.portfolio-links {
-    padding: 32px 16px;
-    border: 1px solid var(--border-color);
-    border-top: none;
-}
