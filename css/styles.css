@@ -374,7 +374,7 @@ header .link, footer .link {
     padding: 100px 0;
 }
 
-.footer.link {
+.footer .link {
     display: inline-block;
     margin-bottom: 16px;
 }
