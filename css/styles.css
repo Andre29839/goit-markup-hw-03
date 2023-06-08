@@ -391,21 +391,22 @@ header ul.list:hover, header ul.list:focus {
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid var(--border-color);
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
-.list-btn.button:hover, .list-btn.button:focus {
+.list-btn .button:hover, .list-btn .button:focus {
     border: 1px solid transparent;
+    color: var(--white-color);
+    background: var(--button);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .list .link {
     text-decoration: none;
 
-}
-
-.list .button:hover, .list .button:focus {
-    color: var(--white-color);
-    background-color: var(--button);
-    cursor: pointer;
 }
 
 .example-list {
@@ -414,9 +415,28 @@ header ul.list:hover, header ul.list:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    margin-left: 16px;
 }
 
 .production-p {
     color: var(--main-color-text);
     text-decoration: none;
+    margin-left: 16px;
+}
+
+.list-productioin {
+display: flex;
+flex-wrap: wrap;
+gap: 48px 24px;
+}
+
+.example-container {
+    margin: 32px 0;
+}
+
+.example-box {
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    margin: -1px;
 }
