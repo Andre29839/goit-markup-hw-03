@@ -107,11 +107,6 @@ img {
     align-items: center;
     letter-spacing: 0.03em;
     color: var(--logo-color);
-    margin-right: 76px;
-}
-
-.header-item {
-    padding: 24px 0;
 }
 
 .header-container {
@@ -398,18 +393,8 @@ header ul.list:hover, header ul.list:focus {
     border: 1px solid var(--border-color);
 }
 
-.list-btn .button:hover, .list-btn .button:focus {
+.list-btn.button:hover, .list-btn.button:focus {
     border: 1px solid transparent;
-    color: var(--white-color);
-    background-color: var(--button);
-    cursor: pointer;
-}
-
-.portfolio .list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
-
 }
 
 .list .link {
@@ -417,6 +402,11 @@ header ul.list:hover, header ul.list:focus {
 
 }
 
+.list .button:hover, .list .button:focus {
+    color: var(--white-color);
+    background-color: var(--button);
+    cursor: pointer;
+}
 
 .example-list {
     color: var(--secondary-color-text);
@@ -424,12 +414,9 @@ header ul.list:hover, header ul.list:focus {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
-   
 }
 
 .production-p {
     color: var(--main-color-text);
     text-decoration: none;
 }
-
