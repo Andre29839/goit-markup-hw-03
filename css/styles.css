@@ -436,11 +436,11 @@ gap: 48px 24px;
 }
 
 .example-container {
-    margin: 32px 0;
+    box-sizing: border-box;
+    border: 1px solid var(--border-color);
+    padding: 32px 16px;
 }
 
 .example-box {
-    box-sizing: border-box;
-    border: 1px solid var(--border-color);
-    margin: -1px;
+    width: calc((100% - 48px) / 3)
 }
