@@ -438,6 +438,7 @@ gap: 48px 24px;
 .example-container {
     box-sizing: border-box;
     border: 1px solid var(--border-color);
+    border-top: none;
     padding: 32px 16px;
 }
 
