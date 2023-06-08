@@ -78,7 +78,7 @@ img {
     margin: -1px;
     border: 0;
     padding: 0;
-    word-spacing: nowrap;
+    word-spacing: unset;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
@@ -111,6 +111,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--logo-color);
     margin-right: 76px;
+    padding: 24px 0;
 }
 
 .header-container {
@@ -124,7 +125,7 @@ nav.link {
     font-family: roboto, 
 }
 
-.link.website{
+.website{
     color: var(--secondary-color-text);
     font-weight: 500;
     font-size: 16px;
