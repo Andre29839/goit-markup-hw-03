@@ -409,7 +409,7 @@ header ul.list:hover, header ul.list:focus {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-    row-gap: 48px;
+
 }
 
 .list .link {
@@ -417,9 +417,6 @@ header ul.list:hover, header ul.list:focus {
 
 }
 
-.portfolio-links {
-    width: calc((100%-48px)3);
-}
 
 .example-list {
     color: var(--secondary-color-text);
