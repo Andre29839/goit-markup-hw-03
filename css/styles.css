@@ -63,8 +63,6 @@ img {
 
 .button {
     display: block;
-    min-width: 169px;
-    height: 56px;
     border: none;
     background-color: var(--logo-color);
     border-radius: 4px;
@@ -396,7 +394,6 @@ header ul.list:hover, header ul.list:focus {
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid var(--border-color);
-    border: 1px solid #E7E9FC;
     border-radius: 4px;
 }
 
