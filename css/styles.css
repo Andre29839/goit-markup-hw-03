@@ -97,6 +97,10 @@ img {
     padding: 25.5px 0;
 }
 
+.header-item {
+    padding: 24px 0;
+}
+
 .header-link {
     text-transform: uppercase;
     font-weight: 800;
@@ -107,6 +111,7 @@ img {
     align-items: center;
     letter-spacing: 0.03em;
     color: var(--logo-color);
+    margin-right: 76px;
 }
 
 .header-container {
@@ -188,8 +193,8 @@ header ul.list:hover, header ul.list:focus {
     color: var(--secondary-color-text);
 }
 
-.link, .link {
-        text-decoration: none;
+.link {
+    text-decoration: none;
 }
 
 .link-logo:hover, .link-logo:focus{
